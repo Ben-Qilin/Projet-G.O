@@ -1,0 +1,31 @@
+.section {
+    &__intro {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/src/image/img1.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        font-size: 1.2rem;
+        padding: 1rem;
+        gap: 2rem;
+        font-family: 'Amatic SC', handwriting;
+        font-weight: bold;
+        
+       
+        
+    }
+    
+    
+    &__intro-link {
+        width: 3rem;
+        height: 1rem;
+        border-radius: 0.4rem;
+        color: rgb(0, 0, 0);
+        background-color: #A7D09A;
+        padding: 1rem;
+    }
+}

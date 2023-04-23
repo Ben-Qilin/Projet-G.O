@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 10vh;
+    background-color: #A7A37F;
+    position: sticky;
+    top: 0;
+    &__box-logo {
+        width: 50vw;
+        font-family: 'Amatic SC', handwriting;
+        font-size: 2rem;
+        
+
+
+    }
+    &__logo {
+        margin:  1rem;
+    }
+    &__box-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+        
+    }
+}
