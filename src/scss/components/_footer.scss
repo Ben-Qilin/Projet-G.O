@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #A7A37F;
+    height: 15vh;
+    &__text {
+        
+        font-family: 'Amatic SC', handwriting;
+        font-size: 2rem;
+        display: flex;
+        
+    }
+    &__list {
+        
+        display: flex;
+        flex-direction: row;
+
+    }
+    &__icon {
+        max-width: 50%;
+    }
+}

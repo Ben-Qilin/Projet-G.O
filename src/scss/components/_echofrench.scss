@@ -1,0 +1,33 @@
+.section {
+    &__ecofrench {
+        background-color: #F3F4F6;
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    &__ecofrench-title {
+        font-family: 'Amatic SC', handwriting;
+        font-size: 2rem;
+        font-weight: bolder;
+     } 
+    &__ecofrench-text {
+        font-family: 'Amatic SC', handwriting;
+        font-size: 1.5rem;
+        
+     }
+     &__ecofrench-link {
+        display: block;
+        max-width: 3rem;
+        border-radius: 0.4rem;
+        color: rgb(0, 0, 0);
+        background-color: #A7D09A;
+        padding: 1rem;
+        font-weight: bold;
+        font-family: 'Amatic SC', handwriting;
+        
+     }
+     &__ecofrench-img {
+        max-width: 100%;
+     }
+    }

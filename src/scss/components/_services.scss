@@ -1,0 +1,45 @@
+.section {
+    &__services {
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    &__service-title {
+        font-family: 'Amatic SC', handwriting;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Amatic SC', handwriting;
+    &__img {
+        max-width: 100%;
+    }
+    &__title {
+        font-weight: bolder;
+        font-size: 1.7rem;
+
+    }
+    &__text {
+        /*font-weight: bold;*/
+        font-size: 1.5rem;
+
+    }
+    &__link {
+        display: block;
+        max-width: 3rem;
+        border-radius: 0.4rem;
+        color: rgb(0, 0, 0);
+        background-color: #A7D09A;
+        padding: 1rem;
+        font-weight: bold;
+        
+    }
+    
+}
+

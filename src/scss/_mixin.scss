@@ -1,0 +1,7 @@
+@mixin tablette {
+    @media (min-width: 37rem){ @content; }
+    
+}
+@mixin desktop1080 {
+    @media (min-width: 67rem){ @content; }
+}
