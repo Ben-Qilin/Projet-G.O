@@ -2,10 +2,11 @@
   "name": "projet-g.o",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
+    "main": "main.js",
     "build": "parcel build"
   },
   "keywords": [],
